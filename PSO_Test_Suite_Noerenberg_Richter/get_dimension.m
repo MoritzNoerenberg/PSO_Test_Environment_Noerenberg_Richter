@@ -10,7 +10,7 @@ function [fit] = get_dimension(nfunc)
 Dims = [1 1 1 2 2 2 2 3 3 2 2 2 2 3 3 5 5 10 10 20]; % dimensionality of benchmark functions
 switch nfunc
     case 21
-        fit = 10;
+        fit = 44;
     case 22
         fit = 20;
     case 23
